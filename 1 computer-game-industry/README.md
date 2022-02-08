@@ -1,19 +1,8 @@
-# Пример описания проекта в README.md - Музыка больших городов
+# Identification of perspective product in the computer game industry
 
 
-## Данные
+## Description
+The online store sells computer games and provides us historical data up to 2016 on game sales, user and expert ratings, genres and platforms. Suggesting it's December 2016 now and the store is planning a campaign for 2017. We try to identify the patterns that determine the success of the game, that will allow the store  to bet on a potentially popular product and plan advertising campaigns.
 
-В наличии были следующие данные о прослушиваниях треков в сервисе Яндекс.Музыка:
-- Название трека
-- Исполнитель
-- Жанр
-- Город
-- День прослушивания
-- Время прослушивания
-
-## Задача
-
-Провести сравнение музыкальных предпочтений у пользователей Яндекс.Музыки, проживающих в Москве и Санкт-Петербурге. Сравнить прослушивания в понедельник, среду и пятницу по городам, а также сравнить жанры, которые слушают пользователи утром в понедельник и вечером в пятницу в Москве и Санкт-Петербурге.  
-
-## Используемые библиотеки
-*pandas*
+## Libraries
+*pandas, numpy, scipy, math, matplotlib, seaborn*
