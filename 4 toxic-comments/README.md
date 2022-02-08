@@ -1,19 +1,8 @@
-# Пример описания проекта в README.md - Музыка больших городов
+# Identification of toxic comments
 
 
-## Данные
+## Description
+Identification of toxic comments for its' further moderation. With this aim unnecessary symbols were removed, text was lemmatized and vectorized. Then we trained several machine learning models whith the quality metric F1.
 
-В наличии были следующие данные о прослушиваниях треков в сервисе Яндекс.Музыка:
-- Название трека
-- Исполнитель
-- Жанр
-- Город
-- День прослушивания
-- Время прослушивания
-
-## Задача
-
-Провести сравнение музыкальных предпочтений у пользователей Яндекс.Музыки, проживающих в Москве и Санкт-Петербурге. Сравнить прослушивания в понедельник, среду и пятницу по городам, а также сравнить жанры, которые слушают пользователи утром в понедельник и вечером в пятницу в Москве и Санкт-Петербурге.  
-
-## Используемые библиотеки
-*pandas*
+## Libraries
+*pandas, spacy, nltk, re, sklearn, lightgbm, catboost*
